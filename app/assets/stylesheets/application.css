@@ -18,12 +18,22 @@ body {
   margin-top: 80px;
 }
 
-h1 {
+h1, h4, h6 {
   text-align: center;
 }
 
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.poi_link {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .masthead {
-  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/0d/1b/98/0d1b984f027ebe0a76dbcda916818c2f.jpg');
+  background-image: url('/img/30-01.jpg');
 }
 
 .brand-heading {
@@ -37,7 +47,7 @@ h1 {
 iframe{
   text-align: center;
   height: 500px;
-  width: 400px;
+  width: 350px;
   margin-bottom: 30px;
 
 }
@@ -62,8 +72,17 @@ iframe{
 }
 
 .maps_display iframe {
-  height: 500px;
-  width: 400px;
+  height: 380px;
+  width: 380px;
+}
+
+.street_view {
+  height: 200px;
+  width: 300px;
+}
+
+.street_view_box {
+  text-align: center;
 }
 
 .input_box {
@@ -72,4 +91,33 @@ iframe{
 
 .masthead {
   background-color: white;
+}
+
+.btn.btn-circle {
+  border-color: black;
+}
+
+.fa.fa-angle-double-down {
+  color: black;
+}
+.form-control {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 89%;
+}
+
+.form_box {
+  text-align: center;
+}
+
+.name_box {
+  text-align: center;
+}
+
+.name_box button {
+  margin-bottom: 20px;
+}
+
+.empty_box {
+  height: 300px;
 }
