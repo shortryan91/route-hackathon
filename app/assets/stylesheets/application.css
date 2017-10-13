@@ -33,7 +33,7 @@ h4 {
 }
 
 .masthead {
-  background-image: url('/img/30-01.jpg');
+  background-image: url('/img/COLOURtiny.jpg');
 }
 
 .brand-heading {
@@ -120,4 +120,16 @@ iframe{
 
 .empty_box {
   height: 300px;
+}
+
+.history_box p {
+  margin: 5px;
+}
+
+.history_box a {
+  font-size: 20px;
+}
+
+.history_box {
+  margin: 15px;
 }
