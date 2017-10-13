@@ -17,8 +17,13 @@
 body {
   margin-top: 80px;
 }
+
+h1 {
+  text-align: center;
+}
+
 .masthead {
-  background-image: url('http://www.starobserver.com.au/wp-content/uploads/2014/05/Melbourne1-e1445497977862.jpg');
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/0d/1b/98/0d1b984f027ebe0a76dbcda916818c2f.jpg');
 }
 
 .brand-heading {
@@ -59,4 +64,12 @@ iframe{
 .maps_display iframe {
   height: 500px;
   width: 400px;
+}
+
+.input_box {
+  margin-bottom: 2%
+}
+
+.masthead {
+  background-color: white;
 }
